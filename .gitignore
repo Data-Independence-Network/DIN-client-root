@@ -1,0 +1,22 @@
+.idea/
+/sapoto.net/**
+/votecube.com/**
+
+.DS_Store
+**/.DS_Store
+
+npm-debug.log
+
+# Ignore Rush temporary files
+/common/temp/**
+
+/node_modules
+
+# Ignore Microsoft Rush temp files
+.rush/
+
+# Ignore VsCode History plugin directory
+.history/
+
+#**/lib/**
+

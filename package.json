@@ -1,0 +1,26 @@
+{
+    "version": "0.0.1",
+    "name": "din-client-root",
+    "description": "dependency management for all AIR projects",
+    "license": "MIT & Apache 2.0",
+    "scripts": {
+        "build": "ts-patch install -s"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beyond-decentralized/AIRroot.git"
+    },
+    "keywords": [
+        "Autonomous Interdependent Repositories",
+        "AIRport"
+    ],
+    "author": "Artem <Artem.V.Shamsutdinov@beyond-decentralized.world> (https://beyond-decentralized.world/)",
+    "devDependencies": {
+        "ts-patch": "^2.1.0",
+        "typescript": "^4.5.2"
+    },
+    "bugs": {
+        "url": "https://github.com/beyond-decentralized/AIRroot/issues"
+    },
+    "homepage": "https://github.com/beyond-decentralized/AIRroot#readme"
+}

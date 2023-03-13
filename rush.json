@@ -1,0 +1,276 @@
+{
+  // NOTE: Comments are allowed in all Rush config files :-)
+  "rushVersion": "5.34.4",
+  "pnpmVersion": "5.9.3",
+  "nodeSupportedVersionRange": ">=16.0.0 <17.0.0",
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 7,
+  "projects": [
+    // top level - needed to build all projects together
+    {
+      "packageName": "din-client-root",
+      "projectFolder": ".",
+      "shouldPublish": true
+    },
+    // Sapoto
+    // "apps" folder (alphabetical order)
+    {
+      "packageName": "@sapoto/core",
+      "projectFolder": "./sapoto.net/apps/core",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@sapoto/host",
+      "projectFolder": "./sapoto.net/apps/host",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@sapoto/main",
+      "projectFolder": "./sapoto.net/apps/main",
+      "shouldPublish": true
+    },
+    // Votecube
+    // "schemas" folder (alphabetical order)
+    {
+      "packageName": "@votecube/votecube",
+      "projectFolder": "./votecube.com/schemas/votecube",
+      "shouldPublish": true
+    },
+    // "ORMs" folder (alphabetical order)
+    {
+      "packageName": "@airport/tarmaq-dao",
+      "projectFolder": "../../AIRroot/AIRport/ORMs/tarmaq/dao",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/tarmaq-entity",
+      "projectFolder": "../../AIRroot/AIRport/ORMs/tarmaq/entity",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/tarmaq-query",
+      "projectFolder": "../../AIRroot/AIRport/ORMs/tarmaq/query",
+      "shouldPublish": true
+    },
+    // AIRport
+    // "apis" folder (alphabetical order)
+    {
+      "packageName": "@airport/air-traffic-control",
+      "projectFolder": "../../AIRroot/AIRport/apis/air-traffic-control",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/aviation-communication",
+      "projectFolder": "../../AIRroot/AIRport/apis/aviation-communication",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/ground-control",
+      "projectFolder": "../../AIRroot/AIRport/apis/ground-control",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/terminal-map",
+      "projectFolder": "../../AIRroot/AIRport/apis/terminal-map",
+      "shouldPublish": true
+    },
+    // "databases" folder (alphabetical order)
+    {
+      "packageName": "@airport/mysql",
+      "projectFolder": "../../AIRroot/AIRport/databases/mysql",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/postgres",
+      "projectFolder": "../../AIRroot/AIRport/databases/postgres",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/sequence",
+      "projectFolder": "../../AIRroot/AIRport/databases/sequence",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/sqlite",
+      "projectFolder": "../../AIRroot/AIRport/databases/sqlite",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/sqljs",
+      "projectFolder": "../../AIRroot/AIRport/databases/sqljs",
+      "shouldPublish": true
+    },
+    // "engines" folder (alphabetical order)
+    {
+      "packageName": "@airport/terminal",
+      "projectFolder": "../../AIRroot/AIRport/engines/terminal",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/tower",
+      "projectFolder": "../../AIRroot/AIRport/engines/tower",
+      "shouldPublish": true
+    },
+    // "generators" folder (alphabetical order)
+    {
+      "packageName": "@airport/runway",
+      "projectFolder": "../../AIRroot/AIRport/generators/runway",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/takeoff",
+      "projectFolder": "../../AIRroot/AIRport/generators/takeoff",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/taxiway",
+      "projectFolder": "../../AIRroot/AIRport/generators/taxiway",
+      "shouldPublish": true
+    },
+    // "libs" folder (alphabetical order)
+    {
+      "packageName": "@airport/airgate",
+      "projectFolder": "../../AIRroot/AIRport/libs/airgate",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/autopilot",
+      "projectFolder": "../../AIRroot/AIRport/libs/autopilot",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/blueprint",
+      "projectFolder": "../../AIRroot/AIRport/libs/blueprint",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/direction-indicator",
+      "projectFolder": "../../AIRroot/AIRport/libs/direction-indicator",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/flight-number",
+      "projectFolder": "../../AIRroot/AIRport/libs/flight-number",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/fuel-hydrant-system",
+      "projectFolder": "../../AIRroot/AIRport/libs/fuel-hydrant-system",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/ground-transport",
+      "projectFolder": "../../AIRroot/AIRport/libs/ground-transport",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/pressurization",
+      "projectFolder": "../../AIRroot/AIRport/libs/pressurization",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/session-state",
+      "projectFolder": "../../AIRroot/AIRport/libs/session-state",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/vhf-radio",
+      "projectFolder": "../../AIRroot/AIRport/libs/vhf-radio",
+      "shouldPublish": true
+    },
+    // "platforms" folder (alphabetical order)
+    {
+      "packageName": "@airport/server",
+      "projectFolder": "../../AIRroot/AIRport/platforms/server",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/web-terminal",
+      "projectFolder": "../../AIRroot/AIRport/platforms/web-terminal",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/web-tower",
+      "projectFolder": "../../AIRroot/AIRport/platforms/web-tower",
+      "shouldPublish": true
+    },
+    // "schemas" folder (alphabetical order)
+    {
+      "packageName": "@airport/airport-code",
+      "projectFolder": "../../AIRroot/AIRport/schemas/airport-code",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/airspace",
+      "projectFolder": "../../AIRroot/AIRport/schemas/airspace",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/final-approach",
+      "projectFolder": "../../AIRroot/AIRport/schemas/final-approach",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/holding-pattern",
+      "projectFolder": "../../AIRroot/AIRport/schemas/holding-pattern",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/layover",
+      "projectFolder": "../../AIRroot/AIRport/schemas/layover",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airport/travel-document-checkpoint",
+      "projectFolder": "../../AIRroot/AIRport/schemas/travel-document-checkpoint",
+      "shouldPublish": true
+    },
+    // AIRbridge (alphabetical order)
+    {
+      "packageName": "@airbridge/data-model",
+      "projectFolder": "../../AIRroot/AIRbridge/data-model",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airbridge/keyring",
+      "projectFolder": "../../AIRroot/AIRbridge/keyring",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airbridge/sso",
+      "projectFolder": "../../AIRroot/AIRbridge/sso",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airbridge/transfer",
+      "projectFolder": "../../AIRroot/AIRbridge/transfer",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airbridge/validate",
+      "projectFolder": "../../AIRroot/AIRbridge/validate",
+      "shouldPublish": true
+    },
+    // AIRway (alphabetical order)
+    {
+      "packageName": "@airway/client",
+      "projectFolder": "../../AIRroot/AIRway/client",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airway/in-memory-server",
+      "projectFolder": "../../AIRroot/AIRway/in-memory-server",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airway/processor-common",
+      "projectFolder": "../../AIRroot/AIRway/processor-common",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@airway/types",
+      "projectFolder": "../../AIRroot/AIRway/types",
+      "shouldPublish": true
+    }
+  ]
+}
