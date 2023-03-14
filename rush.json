@@ -32,8 +32,58 @@
     // Votecube
     // "schemas" folder (alphabetical order)
     {
+      "packageName": "@votecube/forms",
+      "projectFolder": "./votecube.com/libs/forms",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/forum-ui",
+      "projectFolder": "./votecube.com/libs/forum-ui",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/model",
+      "projectFolder": "./votecube.com/libs/model",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/ui-components",
+      "projectFolder": "./votecube.com/libs/ui-components",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/ui-controls",
+      "projectFolder": "./votecube.com/libs/ui-controls",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/cube-logic",
+      "projectFolder": "./votecube.com/libs/cube-logic",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/ui-logic",
+      "projectFolder": "./votecube.com/libs/ui-logic",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/vc-logic",
+      "projectFolder": "./votecube.com/libs/vc-logic",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/public-ui",
+      "projectFolder": "./votecube.com/apps/public-ui",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@votecube/votecube",
       "projectFolder": "./votecube.com/schemas/votecube",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@votecube/forum",
+      "projectFolder": "./votecube.com/schemas/forum",
       "shouldPublish": true
     },
     // "ORMs" folder (alphabetical order)
